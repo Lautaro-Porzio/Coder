@@ -1,0 +1,40 @@
+p{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+.barra ul li{
+    text-decoration: none;
+}
+.header{
+    font-size: 30px;
+        font-family: monospace;
+        background-color: black;
+        height: 80px;
+        width: 100%;
+    }
+.body{
+        background-color:  #0C343D;
+    }
+.footer{
+    background-color: black;
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.barra ul a{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.barra ul a:hover{
+    color: #0C343D;
+}
+.redes{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.boton{
+        position:relative
+}
