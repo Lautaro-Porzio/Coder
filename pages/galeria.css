@@ -23,54 +23,11 @@
     transition: all 0.5s;
     
 }
-.item1{
-    
-    background-image: url(../Multimedia/1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.item2{
-    background-image: url(../Multimedia/2.jpg);
+.contendor{
     background-size: cover;
     background-position: center;
     
-}
-.item3{
-    background-image: url(../Multimedia/3.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
-.item4{
-    background-image: url(../Multimedia/4.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
-.item5{
-    background-image: url(../Multimedia/5.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
-.item6{
-    background-image: url(../Multimedia/6.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
-.item7{
-    background-image: url(../Multimedia/7.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
-.item8{
-    background-image: url(../Multimedia/8.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
+} 
 @media only screen and (min-width:320px) and (max-width:780px) {
     *{
         margin: 0;
@@ -86,4 +43,7 @@
     .barra ul a {
         display: grid;
     }
+}
+.carousel-indicators{
+    border-radius: 50%;
 }
