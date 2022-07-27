@@ -22,17 +22,6 @@ p{
     width: 100%;
     text-align: center;
 }
-.barra ul a{
-    list-style: none;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    padding: 10px;
-}
-.barra ul a:hover{
-    color: #0C343D;
-    transform: skewX(40deg)
-}
 .redes{
     font-size: 30px;
     letter-spacing: 10px;
@@ -48,4 +37,24 @@ p{
 .display2{
     flex: 1;
 } 
+}
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.nav-link:hover{
+    color: #0C343D;
+    transform: skewX(40deg)
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar-brand::first-letter{
+    color: #0C343D;
 }
