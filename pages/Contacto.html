@@ -74,23 +74,16 @@
             <a class="navbar-brand" href="#">DukiFanPage</a>
         </div>
         <div class="container-fluid text-center">
-            <ul class="navbar-nav text-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Discografia.html">Discografia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Shows.html">Shows</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Contacto.html">Contacto</a>
-                </li>
-            </ul>
+            <<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Contacto</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                <li><a class="dropdown-item" href="Discografia.html">Discografia</a></li>
+                <li><a class="dropdown-item" href="Shows.html">Shows</a></li>
+                <li><a class="dropdown-item" href="Galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </li>
         </div>
     </nav>
 </header>
@@ -99,11 +92,11 @@
     <h2 class="duki">Me interesa las diferentes opiniones y sobre todo la tuya, ya sea cosas que a vos te gustaria ver, o cambios que me recomendas en la pagina</h2>
 
     <form action="/action_page.php">
-        <div class="mb-3 mt-3">
+        <div class="col-2">
         <label for="email" class="form-label">Email:</label>
         <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
         </div>
-        <div class="mb-3">
+        <div class="col-2">
         <label for="pwd" class="form-label">Contraseña:</label>
         <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
         </div>
@@ -114,10 +107,10 @@
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
-
+<div class="col-2">
     <label for="comment">Ingresa tu comentario:</label>
 <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-
+</div>
     
 </form>
 </body>
